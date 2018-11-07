@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  padding: 0;
+  background:#FFDE8B; 
+}
+.wrapper{
+  width: 1000px;
+  margin: 10px auto;
+  background:#FFE8CA;
+  padding:50px;
+  box-shadow:5px 5px 5px rgba(0,0,0, 0.3);
+  border:none;
+  position: relative;
+}
+.foto{
+  position:absolute;
+  top: 110px;
+  right: 40px;
+}
+.foto img{
+  width: 150px;
+  height: 150px;
+}
+h1, h2, h3{
+  text-align: center;
+  color:red;
+}
+p{
+  font-size: 20px;
+}
