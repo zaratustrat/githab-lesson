@@ -1,0 +1,28 @@
+*{
+	box-sizing: border-box;
+}
+#wrapper{
+width: 1000px;
+margin: 0 auto;
+}
+.header{
+	text-align: center;
+	margin-top: 70px;
+ font:bold 30px/30px arial;
+}
+.header span{
+	 color:#FD58B2;
+}
+.col, .col-two{
+	 display: inline-block;
+	 text-align:center;
+	 margin: 0px 60px;
+	 width: 200px;
+	 vertical-align: text-top;
+}
+#main, #main-two{
+	 margin-top: 70px; 
+}
+p{
+	 font:bold 16px arial;
+}
