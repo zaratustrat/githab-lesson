@@ -8,7 +8,7 @@ margin: 0 auto;
 .header{
 	text-align: center;
 	margin-top: 70px;
- font:bold 30px/30px arial;
+ font:bold 30px/1.2 arial;
 }
 .header span{
 	 color:#FD58B2;
@@ -22,6 +22,7 @@ margin: 0 auto;
 }
 
 p{
+	 width: 260px;
 	 font:bold 16px arial;
-	 margin: 0;
+	 margin-top:25px;
 }
