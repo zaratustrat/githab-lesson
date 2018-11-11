@@ -102,3 +102,31 @@
     font-weight: 400;
     line-height: 22px;
    }
+
+   .footer {
+   	padding-top: 90px;
+   }
+
+   	.foto-wrap::after {
+   	content: '';
+   	display: table;
+   	clear:both;
+   }
+
+   .foto-block__one, .foto-block__two {
+   	display: inline-block;
+   	text-align: center;
+   	width: 100%;
+   	margin-bottom: 44px;
+    }
+
+    .foto-block__two {
+    	margin-bottom: 113px;
+    }
+
+    .face-man {
+    	margin: 0 34px;
+    }
+
+   
+   
