@@ -1,0 +1,137 @@
+ body{
+ 	font-family: tahoma;
+ }
+ button:focus {
+ 	outline: none;
+ }
+   #wrapper {
+   margin: 0 auto;
+   width: 1140px;
+  }
+ 
+   .header{
+ 	  padding-top: 77px;
+ 	  padding-bottom: 96px;
+  }
+
+   .header-img{
+   	display: inline-block;
+   	width: 45%;
+   	vertical-align: middle;
+   }
+
+   .header-text{
+   	display: inline-block;
+   	width: 54%;
+   	vertical-align: middle;
+   }
+
+   .header-text__title{
+   	font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+   }
+
+   .header-text__subtitele {
+   	font-size: 30px;
+   	font-weight: 400;
+   	margin-bottom: 35px;
+   }
+
+   .header-text__descr {
+   	font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    max-width: 530px;
+    margin-bottom: 47px;	
+   }
+
+   .header-text__price {
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 53px;
+   }
+
+   .button {
+   	border-radius: 5px;
+    background-color: #f05a22;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 22px 43px;
+    margin-right: 44px;
+   }
+
+   .button-o {
+   	color:#f05a22;
+   	background-color: transparent;
+   	border:2px solid #f05a22;
+   }
+
+   .section-title {
+   	font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 90px;
+   }
+
+   .features {
+   	padding-top: 88px;
+   	padding-bottom: 200px;
+   	background-color: #f2f2f2;
+   
+   }
+
+   .feature-wrap::after {
+   	content: '';
+   	display: table;
+   	clear:both;
+   }
+
+   .features-block {
+   	display: inline-block;
+   	text-align: center;
+   	width: 25%;
+   	float:left;
+   }
+
+   .features-block__img {
+   	min-height: 50px;
+   	margin-bottom: 23px;
+   }
+
+   .feature-block__text {
+   	font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+   }
+
+   .footer {
+   	padding-top: 90px;
+   }
+
+   	.foto-wrap::after {
+   	content: '';
+   	display: table;
+   	clear:both;
+  
+
+   }
+
+   .foto-block__one, .foto-block__two {
+   	display: inline-block;
+   	text-align: center;
+   	width: 100%;
+   	margin-bottom: 44px;
+    }
+
+    .foto-block__two {
+    	margin-bottom: 113px;
+    }
+
+    .face-man {
+    	margin: 0 10px;
+    }
+
+   
+   
