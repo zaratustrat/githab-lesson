@@ -1,15 +1,21 @@
 
-
 .header {
 	font:bold 24px tahoma;
-	margin-top: 70px;
-	margin-bottom: 90px;
-	}
- 
- .feature-box p{
-  font:bold 16px tahoma;
-  margin-top: 20px;
-  vertical-align:text-center;
- }
+	text-transform: uppercase;
+	text-align:center;
+	margin: 75px auto 85px auto;
+}
 
+.image-text {
+	margin-bottom: 20px;
+	text-align: center;
+}
+p {
+	font: bold 16px tahoma;
+	margin-top: 20px;
+	
+}
 
+.image {
+	height: 70px;
+}
