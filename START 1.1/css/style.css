@@ -1,0 +1,53 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+ background-image: url("img/background.jpg");
+}
+
+.wrapper {
+ width: 1140px;
+ font-family: arial;
+ margin: 0 auto;
+ padding-top: 80px;
+}
+
+.header {
+ text-align: center;
+ color: #0A7FA6;
+ margin-bottom: 70px;
+}
+
+.list {
+ width: 600px;
+ margin: 0 auto;
+ text-align: center;
+}
+
+.list a:link,
+.list a:visited {
+ text-decoration: none;
+ color: #0AD5A6;
+ display:block;
+}
+
+.list a:hover {
+ color: rgb(255, 238, 0);
+ background:  rgba(42, 142, 224, 0.308);
+ border-radius: 20px; 
+ }
+
+.button {
+ border-radius: 20px;
+ width: 600px;
+ background: rgba(42, 142, 224, 0.308);
+ text-align: center;
+ margin-bottom: 20px;
+ border:none;
+ line-height: 20px;
+
+}
+
+� 2018 GitHub,
+Inc. Terms Privacy Security Status Help Contact GitHub Pricing API Training Blog About

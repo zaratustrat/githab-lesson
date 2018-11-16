@@ -1,0 +1,16 @@
+.header {
+ text-align: center;
+ margin-top: 70px;
+ font: bold 30px/1.2 arial;
+ margin-bottom: 70px;
+}
+
+.header span {
+ color: #FD58B2;
+}
+.image-text {
+	text-align: center;
+}
+p {
+	font:bold 16px arial;
+}
