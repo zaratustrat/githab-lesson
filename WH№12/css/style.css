@@ -1,0 +1,60 @@
+.form-wrapper {
+	width: 1140px;
+	background: #F3F3F3;
+}
+
+.header {
+		margin-top: 30px;
+		font-family:arial;			
+	border:2px solid red;
+	margin-bottom: 50px;
+}
+
+.header-title{
+		font-size: 30px;
+	 margin-bottom: 20px;
+}
+
+.header-subtitle {
+	font-size: 19px;
+	color: #545454;
+}
+
+.form {
+	border: 2px solid blue;
+	}
+
+.form-card {
+	 border:1px solid green;
+	 background-color: white;
+
+}
+	.form-airplane {
+	}
+	.form-header {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #25333C;
+		color:white;
+		max-width: 310px;
+		height: 60px;
+		margin-bottom: 10px;
+	}
+
+	.form-img img{
+   width: 60px;
+   height: 60px;
+	}
+ 
+ .form-text {
+ 	font-size: 19px;
+ 	margin: 0;
+ }
+
+ .form-prace {
+ 	font-size:28px;
+ 	color:#E93B3B;
+ }
+
+.
