@@ -1,46 +1,35 @@
 .form-wrapper {
 	width: 1140px;
+	margin: 0 auto;
 	background: #F3F3F3;
 }
 
 .header {
 		margin-top: 30px;
 		font-family:arial;			
-	border:2px solid red;
-	margin-bottom: 50px;
-}
-
-.header-title{
-		font-size: 30px;
-	 margin-bottom: 20px;
+	 margin-bottom: 15px;
 }
 
 .header-subtitle {
 	font-size: 19px;
 	color: #545454;
+	margin-bottom: 50px;
 }
 
 .form {
-	border: 2px solid blue;
-	}
-
-.form-card {
-	 border:1px solid green;
 	 background-color: white;
-
 }
-	.form-airplane {
-	}
+	
 	.form-header {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		background-color: #25333C;
 		color:white;
-		max-width: 310px;
 		height: 60px;
 		margin-bottom: 10px;
 	}
+
 
 	.form-img img{
    width: 60px;
@@ -55,6 +44,40 @@
  .form-prace {
  	font-size:28px;
  	color:#E93B3B;
+ 	margin-bottom: 20px;
  }
 
-.
+ .form-input__type {
+ 	margin-bottom: 20px;
+ }
+
+ .input-form {
+ 	width: 90%;
+ 	display: block;
+ 	margin: 0 auto;
+ }
+ 
+ .form input {
+ 	margin-bottom: 5px;
+ 	padding: 10px;
+ }
+
+ .form-btn {
+ 	display: block;
+ 	border: none;
+ 	height: 55px;
+ 	width: 70%;
+ 	background-color: #E93B3B;
+ 	color: white;
+ 	border-radius: 5px;
+ 	margin: 0 auto;
+ 	font: 14px arial;
+ 	text-transform: uppercase;
+ 	margin-bottom: 20px;
+}
+.form-text__col-back {
+	color: #757575;
+	margin-bottom: 20px;
+}
+
+ 
