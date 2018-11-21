@@ -55,6 +55,7 @@
  	width: 90%;
  	display: block;
  	margin: 0 auto;
+ 	text-transform:none;
  }
  
  .form input {
@@ -63,6 +64,7 @@
  }
 
  .form-btn {
+ 	outline: 0 !important;
  	display: block;
  	border: none;
  	height: 55px;
