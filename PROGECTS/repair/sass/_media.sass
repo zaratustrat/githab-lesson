@@ -1,0 +1,36 @@
+@media (max-width: 1199px)
+ .container
+  width: 970px 
+
+@media (max-width: 922px) 
+  .container
+    width: 767px
+  .main 
+     &-text 
+      &-title
+       font-size: 30px
+       line-height: 36px
+  .feedback
+    background: #fff     
+@media (max-width: 768px)
+ .hidden-xs
+    display: none
+ .container
+    width: 95%
+ .main 
+    &-wrap 
+      flex-direction: column
+    &-text 
+      max-width: 400px 
+      margin: auto
+@media (max-width: 520px) 
+  .container
+    width: auto
+    &__title
+      text-align: center     
+    &__input
+      display: flex
+      flex-content: center
+      flex-direction: column
+      margin: auto
+      text-align: center               
