@@ -6,8 +6,8 @@
   .container
     width: 767px
   .main 
-     &-text 
-      &-title
+    &-text 
+      &__title
        font-size: 30px
        line-height: 36px
   .feedback
@@ -23,11 +23,20 @@
     &-text 
       max-width: 400px 
       margin: auto
-      color: blue
+      &__title
+         text-align: center
 @media (max-width: 576px)
-  .container
-    width: 320px
-  .header 
-    &__phone
-        color:red      
-             
+ .container
+   width: 320px
+ .feedback
+ .form
+   &__title
+     &__subtitle
+       text-align: center
+   
+  //  &__two
+  //   display: flex
+  //   flex-direction: column
+    
+    
+

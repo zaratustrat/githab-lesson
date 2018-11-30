@@ -530,32 +530,32 @@ template {
   z-index: -1;
 }
 
-.feedback .form {
+.form {
   max-width: 575px;
 }
 
-.feedback .form__title {
+.form__title {
   font-size: 24px;
   font-family: 'Museo Sans Bold',sans-serif;
   line-height: 35px;
   margin-bottom: 45px;
 }
 
-.feedback .form__subtitle {
+.form__subtitle {
   display: block;
   margin-bottom: 50px;
 }
 
-.feedback .form__input {
+.form__input {
   width: 270px;
   margin-bottom: 30px;
 }
 
-.feedback .form__input:first-child {
+.form__input:first-child {
   margin-right: 30px;
 }
 
-.feedback .form__button {
+.form__button {
   padding: 28px;
   display: block;
   width: 100%;
@@ -563,7 +563,7 @@ template {
   margin-bottom: 31px;
 }
 
-.feedback .form__footer {
+.form__footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -579,7 +579,7 @@ template {
   z-index: 0;
 }
 
-.feedback .form__footer:before {
+.form__footer:before {
   content: '';
   display: block;
   min-width: 40px;
@@ -595,27 +595,53 @@ template {
   z-index: 1;
 }
 
-.feedback .form__callback {
+.form__callback {
   width: 224px;
 }
 
-.feedback .form__contacts {
+.form__contacts {
   max-width: 250px;
 }
 
-.feedback .form__callyou {
+.form__callyou {
   display: block;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.feedback .form__phone {
+.form__phone {
   display: block;
   text-decoration: none;
   color: #333;
   font-weight: bold;
   font-size: 15px;
+}
+
+.button {
+  padding: 17px 30px;
+  font-size: 13px;
+  font-family: 'Museo Sans Bold',sans-serif;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffd200;
+}
+
+.button:hover {
+  background-color: #ffdb33;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.input {
+  font-size: 15px;
+  line-height: 24px;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #dddddd;
 }
 
 *, *::after, *:before {
@@ -647,7 +673,7 @@ img {
   .container {
     width: 767px;
   }
-  .main-text-title {
+  .main-text__title {
     font-size: 30px;
     line-height: 36px;
   }
@@ -672,13 +698,27 @@ img {
   .main-text {
     max-width: 400px;
     margin: auto;
-    color: blue;
+  }
+  .main-text__title {
+    text-align: center;
   }
 }
 
 @media (max-width: 576px) {
   .container {
     width: 320px;
+  }
+  .form__title__subtitle {
+    text-align: center;
+  }
+  .form__two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=style.css.map */
