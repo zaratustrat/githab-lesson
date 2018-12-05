@@ -430,6 +430,7 @@ template {
   color: #333;
   font-family: 'Museo Sans Bold',sans-serif;
   font-size: 20px;
+  font-weight: 700;
 }
 
 .main {
@@ -556,6 +557,8 @@ template {
 }
 
 .form__button {
+  width: 170px;
+  height: 49px;
   padding: 28px;
   display: block;
   width: 100%;
