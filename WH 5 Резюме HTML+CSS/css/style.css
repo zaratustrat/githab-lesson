@@ -1,0 +1,58 @@
+@font-face {
+ font-family: 'Museo Sans Light';
+ src: url('../fonts/MuseoSansCiril/MuseoSansCyrl-300.eot');
+ src: url('../fonts/MuseoSansCiril/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCiril/MuseoSansCyrl-300.woff') format('woff'), url('../fonts/MuseoSansCiril/MuseoSansCyrl-300.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'Museo Sans Medium';
+ src: url('../fonts/MuseoSansCiril/MuseoSansCyrl-500.eot');
+ src: url('../fonts/MuseoSansCiril/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCiril/MuseoSansCyrl-500.woff') format('woff'), url('../fonts/MuseoSansCiril/MuseoSansCyrl-500.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'Museo Sans Bold';
+ src: url('../fonts/MuseoSansCirilMuseoSansCyrl-700.eot');
+ src: url('../fonts/MuseoSansCirilMuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCirilMuseoSansCyrl-700.woff') format('woff'), url('../fonts/MuseoSansCirilMuseoSansCyrl-700.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background:#FFDE8B;
+  font-family: Museo Sans Light; 
+}
+.wrapper{
+  width: 1000px;
+  margin: 10px auto;
+  background:#FFE8CA;
+  padding:50px;
+  box-shadow:5px 5px 5px rgba(0,0,0, 0.3);
+  border:none;
+  position: relative;
+}
+.foto{
+  position:absolute;
+  top: 110px;
+  right: 40px;
+}
+.foto img{
+  width: 150px;
+  height: 150px;
+}
+h1, h2, h3{
+  text-align: center;
+  color:red;
+}
+p{
+  font-size: 20px;
+} 
+   
+BIN +783 KB wh5/img/test.jpg
