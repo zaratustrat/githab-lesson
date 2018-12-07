@@ -438,6 +438,7 @@ template {
   color: #333;
   font-family: 'Museo Sans Bold',sans-serif;
   font-size: 20px;
+  font-weight: 700;
   margin-right: 30px;
 }
 
@@ -630,7 +631,8 @@ template {
   display: block;
   text-decoration: none;
   color: #333;
-  font-weight: bold;
+  font-weight: 700;
+  font-family: 'Museo Sans Bold',sans-serif;
   font-size: 15px;
 }
 
@@ -685,6 +687,13 @@ img {
   .container {
     width: 922px;
   }
+  .main-text__title {
+    margin-top: -20px;
+  }
+  .main-image {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
 }
 
 @media (max-width: 922px) {
@@ -706,8 +715,10 @@ img {
     margin-bottom: 15px;
   }
   .main-image {
-    width: 70%;
-    display: contents;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
   .feedback {
     padding: 0;
@@ -752,6 +763,7 @@ img {
   }
   .main-text__title {
     text-align: center;
+    margin-top: 10px;
   }
 }
 

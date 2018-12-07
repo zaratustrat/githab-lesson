@@ -1,6 +1,11 @@
 @media (max-width: 1199px)
   .container
-    width: 922px 
+    width: 922px
+  .main
+    &-text__title
+      margin-top: -20px
+    &-image 
+          flex-basis: 40%  
 
 @media (max-width: 922px) 
   .container
@@ -17,8 +22,8 @@
     &-advantages__item
         margin-bottom: 15px
     &-image
-      width: 70% 
-      display: contents      
+      flex-basis: 50%
+      transform: scale(1)      
   .feedback
     padding: 0
     background: #fff
@@ -49,6 +54,7 @@
       margin: auto
       &__title
         text-align: center
+        margin-top: 10px
 @media (max-width: 576px)
   .container
     width: 319px
