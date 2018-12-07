@@ -4,27 +4,33 @@
   &-wrap
     display: flex 
   &-text 
-   flex-basis: 50% 
-   &__title 
-    font-size: 41px 
-    line-height: 55px 
-    margin-top: 20px 
-    +bold
-    margin-bottom: 50px 
+    flex-basis: 50% 
+    &__title
+      font-size: 41px 
+      line-height: 55px 
+      margin-top: 20px 
+      +bold
+      margin-bottom: 50px 
     span 
-     font-size: 20px
-     display: block 
-     margin-top: 20px
+      font-size: 20px
+      display: block 
+      margin-top: 20px
   &-image 
-     flex-basis: 50%
+      flex-basis: 50%
+      max-width: 100%
+      transform-origin: top left
+      transform: scale(1.3)
+      z-index: 99
+      position: relative
+     
   &-advantages 
     display: flex 
     flex-direction: column
     max-width: 350px  
     &__item 
-     display: flex 
-     align-items: center 
-     margin-bottom: 30px   
+      display: flex 
+      align-items: center 
+      margin-bottom: 30px   
     &__img 
       min-width: 40px 
       height: 40px 
