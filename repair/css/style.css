@@ -770,39 +770,51 @@ img {
 @media (max-width: 576px) {
   .container {
     width: 319px;
-    margin: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .header__phone {
-    width: 130px;
-    font-size: 15px;
+  .header__logo {
+    margin-bottom: 10px;
   }
-  .header .button {
-    display: none;
-  }
-  .form {
+  .header-text__contacts {
+    margin-bottom: 10px;
     text-align: center;
   }
-  .form__title {
-    margin-bottom: 10px;
+  .header-text__phone {
+    margin: 10px;
   }
-  .form__subtitle {
-    margin-bottom: 10px;
+  .header-text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-text__title {
+    font-size: 20px;
+  }
+  .feedback {
+    text-align: center;
   }
   .form__input:first-child {
-    margin-right: auto;
-  }
-  .form__input {
+    margin-right: 0;
     margin-bottom: 15px;
-    text-align: center;
+  }
+  .form .input-phone {
+    margin-bottom: 15px;
   }
   .form__button {
-    position: relative;
-    margin: auto;
-    width: 250px;
-    text-align: center;
-    margin-bottom: 30px;
+    width: 270px;
+    margin: 10px auto;
+  }
+  .form__footer::before {
+    display: none;
   }
   .form__footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -810,12 +822,6 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 10px;
-  }
-  .form__phone {
-    position: absolute;
-    top: -25px;
-    left: 93px;
   }
 }
 /*# sourceMappingURL=style.css.map */

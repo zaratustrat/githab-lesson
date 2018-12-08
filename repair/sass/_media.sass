@@ -58,43 +58,46 @@
 @media (max-width: 576px)
   .container
     width: 319px
-    margin: auto
+    flex-direction: column
   .header
-    &-logo
-  
-    &-wrap   
-    
-    &__phone
-      width: 130px
-      font-size: 15px  
-    .button
-      display: none
-  .form
-    text-align: center
-    &__title
+    &__logo
       margin-bottom: 10px
-    &__subtitle
-      margin-bottom: 10px 
-    &__input:first-child
-      margin-right: auto
-    &__input
-      margin-bottom: 15px
-      text-align: center  
-    &__button
-      position: relative
-      margin: auto
-      width: 250px
+    &-text__contacts
+      margin-bottom: 10px
       text-align: center
-      margin-bottom: 30px
+    &-text__phone
+      margin: 10px 
+    &-text
+      flex-direction: column
+  .main
+    &-text__title
+      font-size: 20px    
+  .feedback
+    text-align: center
+  .form
+    &__input:first-child
+      margin-right: 0
+      margin-bottom: 15px
+    .input-phone
+      margin-bottom: 15px  
+    &__button
+      width: 270px
+      margin: 10px auto
+    &__footer::before
+        display: none
     &__footer
-      flex-direction: column    
+      display: flex
+      flex-direction: column
       align-items: center
-      margin-bottom: 10px
-    &__phone  
-      position: absolute
-      top: -25px
-      left: 93px
 
+
+      
+
+      
+          
+            
+
+  
    
     
     
