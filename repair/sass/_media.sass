@@ -1,3 +1,15 @@
+@media (max-width:1529px)
+  .main
+    &-image 
+      transform: scale(1.2)
+@media (max-width: 1404px) 
+  .main
+    &-image 
+      transform: scale(1.1) 
+@media (max-width: 1292px)
+  .main
+    &-image
+      transform: scale(1)           
 @media (max-width: 1199px)
   .container
     width: 922px
@@ -5,7 +17,11 @@
     &-text__title
       margin-top: -20px
     &-image 
-          flex-basis: 40%  
+          flex-basis: 40
+  .feedback
+  .form 
+      margin: auto  
+      text-align: center                   
 
 @media (max-width: 922px) 
   .container
@@ -66,7 +82,6 @@
       margin-bottom: 10px
       text-align: center
     &-text__phone
-      margin: 10px 
     &-text
       flex-direction: column
   .main
@@ -79,10 +94,12 @@
       margin-right: 0
       margin-bottom: 15px
     .input-phone
-      margin-bottom: 15px  
+      margin-bottom: 10px  
     &__button
       width: 270px
       margin: 10px auto
+      span
+        display: none 
     &__footer::before
         display: none
     &__footer
