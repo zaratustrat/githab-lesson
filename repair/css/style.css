@@ -715,8 +715,11 @@ img {
     margin-top: -20px;
   }
   .main-image {
-    -ms-flex-preferred-size: 40;
-        flex-basis: 40;
+    -ms-flex-preferred-size: 55%;
+        flex-basis: 55%;
+  }
+  .feedback:before {
+    width: 100%;
   }
   .form {
     margin: auto;
@@ -807,7 +810,7 @@ img {
     margin-bottom: 10px;
   }
   .header-text__contacts {
-    margin-bottom: 10px;
+    margin: 0 0 10px 0;
     text-align: center;
   }
   .header-text {
