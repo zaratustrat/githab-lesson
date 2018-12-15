@@ -20,7 +20,7 @@
      <a class="header-text__phone header__phone" href="tel:+74954225131">+7 (495) 42-251-31</a>
     </div>
     <div class="header-text__button">
-     <button class="button">Перезвоните<span class="hidden-xs"> мне</span></button>
+     <button class="button" id="button-callb">Перезвоните<span class="hidden-xs"> мне</span></button>
     </div>
    </div>
   </div>
@@ -89,12 +89,27 @@
          <span class="form-text__callyou form__callyou">или перезвоните нам сами</span>
       <a class="form-text__phone form__phone" href="tel:+74954225131">+7 (495) 42-251-31</a>
         </div>
-    </div>
-     </form>
+       </div>
+      </form>
+     </div>
     </div>
    </div>
-   
+  </section>
+
+  <div class="modal" id="modal-callback">
+    <div class="modal__dialog">
+      <div class="modal__close">&#10006;</div>
+      <h4 class="modal__title">Это модальное окно</h4>
+    </div>
   </div>
- </section>
+
+   <script>
+     document.gurySelector('#button-calback').addEventListener('click', function(){
+       document.guerySelector('modal-callback').classList.toggle('modal_visible');
+     });
+     document.gurySelector('modal__close').addEventListener('click', function (){
+        document.guerySelector('#modal-callback').classList.toggle('modal_visible');
+     });  
+   </script> 
  </body>
 </html>

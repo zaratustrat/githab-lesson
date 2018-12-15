@@ -639,32 +639,44 @@ template {
   font-size: 15px;
 }
 
-.button {
-  color: #333333;
-  font-weight: 400;
-  padding: 17px 30px;
-  font-size: 13px;
-  font-family: 'Museo Sans Bold',sans-serif;
-  border-radius: 10px;
-  border: none;
-  background-color: #ffd200;
+.modal {
+  position: fixsed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.52);
+  left: 0;
+  top: 0;
+  z-index: 99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.button:hover {
-  background-color: #ffdb33;
+.modal__dialog {
+  width: 400px;
+  height: 300px;
+  background-color: #fff;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.modal__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.modal__close:hover {
   cursor: pointer;
-}
-
-.button:focus {
-  outline: none;
-}
-
-.input {
-  font-size: 15px;
-  line-height: 24px;
-  padding: 25px;
-  border-radius: 10px;
-  border: 1px solid #dddddd;
 }
 
 *, *::after, *:before {
