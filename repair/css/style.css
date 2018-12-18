@@ -681,7 +681,6 @@ template {
   display: -ms-flexbox;
   display: flex;
   height: 85px;
-  line-height: 5px;
   margin-bottom: 15px;
   position: relative;
 }
@@ -691,10 +690,6 @@ template {
   margin-right: 30px;
 }
 
-.modal-price__one .subtitle {
-  margin: 5px 0 35px 0px;
-}
-
 .modal-catalog:before {
   content: '';
   width: 47px;
@@ -702,7 +697,51 @@ template {
   background-color: #ffd200;
   position: absolute;
   left: 150px;
-  bottom: 60px;
+  bottom: 42px;
+}
+
+.modal-price__one:before {
+  margin: 0 0 15px 0;
+}
+
+.modal-catalog p {
+  margin: 0;
+}
+
+.modal .subtitle {
+  margin: 0 0 20px 0;
+}
+
+.modal .price-text {
+  padding-top: 15px;
+}
+
+.modal-price__three {
+  margin-bottom: 54px;
+}
+
+.modal .price-text__services {
+  font-size: 14px;
+  position: relative;
+  margin-bottom: 77px;
+}
+
+.modal .subtitle-services {
+  margin-bottom: 30px;
+}
+
+.modal .serv {
+  margin-left: 25px;
+}
+
+.modal .serv:before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #ffd200;
+  position: absolute;
+  margin: 4px -25px;
 }
 
 .modal-window__right {
@@ -710,6 +749,63 @@ template {
   height: 100%;
   max-width: 570px;
   width: 53%;
+  text-align: center;
+}
+
+.modal-form__title {
+  margin: -25px 0 50px 0;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.modal-text__contacts {
+  margin-bottom: 50px;
+}
+
+.modal .form-input__two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal-form__input {
+  padding-left: 25px;
+  width: 370px;
+  height: 67px;
+  margin-bottom: 5px;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #DDDDDD;
+}
+
+.modal-form__button {
+  margin: 30px 0 30px 0;
+  width: 370px;
+  height: 67px;
+  color: #333333;
+  background: #ffd200;
+  border: none;
+  border-radius: 10px;
+  color: #333;
+  font-weight: 700;
+  outline: none;
+}
+
+.modal .connection {
+  margin: 0 auto 18px;
+  width: 250px;
+  font-size: 15px;
+}
+
+.modal .form__phone {
+  font-size: 24px;
 }
 
 .modal__close {
