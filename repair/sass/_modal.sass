@@ -9,7 +9,7 @@
   display: flex
   &__dialog
     width: 1052px
-    // height: 674px
+    height: 674px
     background-color: #fff
     margin: auto
     display: flex
@@ -72,7 +72,7 @@
     width: 53% 
     text-align: center
   &-form__title
-    margin: -25px 0 50px 0
+    margin: 80px 0 50px 0
     font-size: 22px
     line-height: 30px
   &-text__contacts
@@ -86,12 +86,12 @@
     padding-left: 25px
     width: 370px
     height: 67px 
-    margin-bottom: 5px
+    margin-bottom: 15px
     outline: none
     border-radius: 10px
     border: 1px solid #DDDDDD
   &-form__button
-    margin: 30px 0 30px 0
+    margin: 15px 0 15px 0
     width: 370px
     height: 67px
     color: #333333
@@ -101,8 +101,11 @@
     color: #333
     font-weight: 700
     outline: none
+  &-form__button:hover
+      background-color: lighten($primary-bg-color,10%)
+      cursor: pointer
   .connection
-    margin: 0 auto 18px
+    margin: 15px auto 18px
     width: 250px
     font-size: 15px
   .form__phone

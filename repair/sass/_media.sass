@@ -53,7 +53,10 @@
     &__subtitle
       margin-bottom: 10px
     &__footer
-      margin-bottom: 50px          
+      margin-bottom: 50px 
+  .modal
+    &-window__left
+      display: none           
 @media (max-width: 768px)
   .hidden-xs
     display: none
@@ -73,6 +76,12 @@
       &__title
         text-align: center
         margin-top: 10px
+  .modal
+    &-form__title
+      margin: 80px 0 30px 0
+    &-text__contacts
+      margin-bottom: 30px    
+          
 @media (max-width: 576px)
   .container
     width: 319px
@@ -109,7 +118,26 @@
       display: flex
       flex-direction: column
       align-items: center
-
+  .modal
+    &-window__right
+        height: auto
+        width: auto
+    &-form__title
+      margin: 15px auto
+      font-size: 18px
+    &-text__contacts
+      margin-bottom: 20px  
+    &__form 
+      display: flex
+      flex-direction: column
+      align-items: center    
+    &__buttons
+      width: 200px
+    .connection
+      margin: inherit 
+    .form__phone
+      font-size: 19px
+      margin-top: 10px   
 
       
 
