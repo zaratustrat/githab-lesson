@@ -669,6 +669,16 @@ template {
   position: relative;
 }
 
+.modal__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.modal__close:hover {
+  cursor: pointer;
+}
+
 .modal-window__left {
   padding: 80px 0 0 80px;
   background: #F7F7F7;
@@ -814,14 +824,8 @@ template {
   font-size: 24px;
 }
 
-.modal__close {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-
-.modal__close:hover {
-  cursor: pointer;
+.modal__visible {
+  display: none;
 }
 
 *, *::after, *:before {
@@ -964,6 +968,23 @@ img {
   }
 }
 
+@media (max-width: 688px) {
+  .container {
+    width: 575px;
+  }
+  .container__buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 @media (max-width: 576px) {
   .container {
     width: 319px;
@@ -1020,6 +1041,9 @@ img {
         -ms-flex-align: center;
             align-items: center;
   }
+  .modal__dialog {
+    height: 560px;
+  }
   .modal-window__right {
     height: auto;
     width: auto;
@@ -1029,7 +1053,8 @@ img {
     font-size: 18px;
   }
   .modal-text__contacts {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    padding: 0 20px;
   }
   .modal__form {
     display: -webkit-box;
@@ -1043,8 +1068,14 @@ img {
         -ms-flex-align: center;
             align-items: center;
   }
+  .modal .form-input__two {
+    width: 100%;
+  }
   .modal__buttons {
-    width: 200px;
+    width: 90%;
+  }
+  .modal-form__button {
+    margin: 5px 0 15px 0;
   }
   .modal .connection {
     margin: inherit;

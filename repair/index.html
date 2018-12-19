@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <html lang="ru">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
 
- <title>Ремонт квартир</title>
-</head>
-<body>
- <header class="header">
+  <title>Ремонт квартир</title>
+  </head>
+  <body>
+  <header class="header">
   <div class="container header-wrap">
    <div class="header-logo img-header__logo">
     <img src="img/header-logo.jpg" alt="Ремонт квартир">
@@ -147,13 +147,13 @@
     </div>
   </div>
 
-   <script>
-     document.gurySelector('#button-calback').addEventListener('click', function(){
-       document.guerySelector('modal-callback').classList.toggle('modal_visible');
-     });
-     document.gurySelector('modal__close').addEventListener('click', function (){
-        document.guerySelector('#modal-callback').classList.toggle('modal_visible');
-     });  
-   </script> 
+  <script>
+    document.querySelector('#button-callback').addEventListener('click', function(){
+      document.querySelector('#modal-callback').classList.toggle('modal_visible');
+    });
+    document.querySelector('.modal__close').addEventListener('click', function(){
+      document.querySelector('#modal-callback').classList.toggle('modal_visible');
+    });  
+  </script> 
  </body>
 </html>
