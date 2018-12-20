@@ -20,7 +20,7 @@
      <a class="header-text__phone header__phone" href="tel:+74954225131">+7 (495) 42-251-31</a>
     </div>
     <div class="header-text__button">
-     <button class="button" id="button-callb">Перезвоните<span class="hidden-xs"> мне</span></button>
+     <button class="button" id="button-callback">Перезвоните<span class="hidden-xs"> мне</span></button>
     </div>
    </div>
   </div>
@@ -147,13 +147,16 @@
     </div>
   </div>
 
+  <script src=https://code.jquery.com/jquery-3.3.1.min.js></script>
   <script>
-    document.querySelector('#button-callback').addEventListener('click', function(){
-      document.querySelector('#modal-callback').classList.toggle('modal_visible');
+    $(document).ready(function () {
+      $('#button-callback').on('click', function() {
+        $('#modal-callback').toggleClass('modal_visible');
+      });
+      $('.modal__close').on('click', function() {
+        $('#modal-callback').toggleClass('modal_visible');
+      });
     });
-    document.querySelector('.modal__close').addEventListener('click', function(){
-      document.querySelector('#modal-callback').classList.toggle('modal_visible');
-    });  
   </script> 
  </body>
 </html>

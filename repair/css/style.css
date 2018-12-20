@@ -650,6 +650,13 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  display: none;
+}
+
+.modal_visible {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .modal__dialog {
@@ -982,6 +989,9 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .modal-window__right {
+    width: auto;
   }
 }
 
