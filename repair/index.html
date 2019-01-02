@@ -127,33 +127,38 @@
   </section>
 
   <section class="cost">
-    <div class="cost-yellow">
-      <h2 class="cost-title cost__h2">Мы можем озвучить Вам примерную стоимость
-      работы и материалов по телефону</h2>
-      <p class="cost-subtitle">Для этого нужно ответить на 4 вопроса:</p>
-
-      <div class="cost-questions">
-        <ul class="questions__item">
-          <li class="cost__text">Какова площадь помещения?</li>
-          <li class="cost__text">У Вас новостройка или вторичное жилье?</li>
-          <li class="cost__text">Где находится помещение, в котором будет <p class="carry">производиться ремонт?</p></li>
-          <li class="cost__text">Назначение помещения?</li>
-        </ul>
-      </div>
-    </div>
-    <div class="cost-form">
-      <h2 class="cost-form__title cost__h2 ">Оставьте заявку на бесплатный <p class="center">расчет ремонта по телефону</p></h2>
-      <p class="cost-form__subtitle">Для этого заполните форму ниже</p>
-      <form action="#" class="js-ajax">
-        <div class="form-input__two cost__form">
-          <input type="text" name="fio" class="input cost__input input-name" placeholder="Ваше имя">
-          <input type="tel" class=" input cost__input input-phone" placeholder="Ваше телефон">
+    <div class="container">
+      <div class="cost-common">
+        <div class="cost-left">
+          <h2 class="cost-title cost__h2">Мы можем озвучить Вам примерную стоимость
+            работы и материалов по телефону</h2>
+          <p class="cost-subtitle cost__p">Для этого нужно ответить на 4 вопроса:</p>
+        
+          <div class="cost-questions">
+            <ul class="questions__item">
+              <li class="cost__text">Какова площадь помещения?</li>
+              <li class="cost__text">У Вас новостройка или вторичное жилье?</li>
+              <li class="cost__text">Где находится помещение, в котором будет <p class="carry">производиться ремонт?</p>
+              </li>
+              <li class="cost__text">Назначение помещения?</li>
+            </ul>
+          </div>
         </div>
-        <button type="submit" class="button cost__button">Рассчитать стоимость</button>
-        <p class="cost__uptext">Мы перезвоним Вам в течение 60 секунд</p>
-
-
-    </div>
+        <div class="cost-right">
+          <h2 class="cost-form__title cost__h2 ">Оставьте заявку на бесплатный <p class="center">расчет ремонта по телефону</p>
+          </h2>
+          <p class="cost-form__subtitle cost__p">Для этого заполните форму ниже</p>
+          <form action="#" class="js-ajax">
+            <div class="form-input__two cost__form">
+              <input type="text" name="fio" class="input cost__input input-name" placeholder="Ваше имя">
+              <input type="tel" class=" input cost__input input-phone" placeholder="Ваше телефон">
+            </div>
+            <button type="submit" class="button cost__button">Рассчитать стоимость</button>
+            <p class="cost__uptext">Мы перезвоним Вам в течение 60 секунд</p>
+        </div>
+      </div>
+      </div>
+    </div>  
   </section> 
 
   <div class="modal" id="modal-callback">

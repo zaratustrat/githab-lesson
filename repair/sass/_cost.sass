@@ -1,27 +1,32 @@
 .cost
-  display: flex
-  height: 660px
-  &-yellow
-    width: 1041px
-    padding-bottom: 109px
-    background: #FFC000
-    padding-top: 106px
-    color: #000000
+  background: #FFC000 url('../img/portfolio/Слой 1.jpeg')no-repeat center right
+  &-common
+    display: flex
+    justify-content: space-between
+    color: black
+  &-left 
+    border: 1px solid red
+  &-right 
+    border: 1px solid blue    
   &__h2
+    margin-top: 105px
     font-size: 22px
-    font-weight: 700 
+    line-height: 35px
   &-title 
-    margin: 0 150px 52px 376px
-    max-width: 515px 
+    max-width: 515px
+    margin-right: 150px
   &-subtitle
-    margin: 0 210px 0 377px
-    font-size: 16px 
-    font-weight: 300
-    margin-bottom: 103px
+    margin-bottom: 100px 
+  &__p
+    font-size: 16px
+    margin-top: 53px 
+  .center
+    text-align: center
+    margin: 0 
   &-questions
-    margin-left: 334px
   .questions__item
-      list-style: none
+      list-style: none 
+      padding: 0
   &__text
     font-size: 18px
     font-weight: 700
@@ -34,54 +39,28 @@
       counter-increment: sectionStyled
       margin-right: 32px    
       font-size: 14px
-      font-weight: 700
+      font-weight: 700 
   .carry
-    margin: 0 70px
+    margin: 0 70px             
 
-  &-form
-    padding-top: 106px
-    position: relative  
-    z-index: 1
-    &:before 
-      content: ''
-      left: 0
-      top: 0 
-      width: 102%
-      height: 100%
-      background: url("../img/portfolio/Слой 1.jpeg") no-repeat center left 100%
-      background-size: cover
-      position: absolute
-      opacity: 0.1
-      z-index: -1
-    &__title 
-      width: 336px 
-      height: 53px
-      margin: 0 105px 0 153px
-    &__subtitle
-      text-align: center
-      margin: 52px 0 49px 50px  
-  .center
-    text-align: center 
-    margin: 0  
-  &__form
-    flex-direction: column
-    display: flex
+  &-right 
     margin-left: 135px
-  &__input   
-    width: 370px
+  &__form
+    display: flex
+    flex-direction: column
+    &__title
+      text-align: center   
+  &-form__subtitle
+    margin-bottom: 48px 
+    text-align: center 
+  &__input
+    max-width: 370px
     height: 65px
     margin-bottom: 15px
   &__button
-    width: 368px
-    height: 70px  
-    margin: 15px 0 33px 135px
-  &__uptext
-    margin-left: 174px  
-
-
-
-    
-    
+    max-width: 368px
+    height: 70px
+    margin: 15px 0 33px 0           
     
    
    
