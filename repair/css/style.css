@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -705,7 +704,7 @@ template {
 }
 
 .cost {
-  background: #FFC000 url("../img/portfolio/Слой 1.jpeg") no-repeat center right;
+  background: url("../img/cost/Composed-layer@1X.png") no-repeat center;
 }
 
 .cost-common {
@@ -718,23 +717,18 @@ template {
   color: black;
 }
 
-.cost-left {
-  border: 1px solid red;
-}
-
-.cost-right {
-  border: 1px solid blue;
-}
-
 .cost__h2 {
   margin-top: 105px;
   font-size: 22px;
   line-height: 35px;
 }
 
+.cost .center {
+  margin: 0;
+}
+
 .cost-title {
   max-width: 515px;
-  margin-right: 150px;
 }
 
 .cost-subtitle {
@@ -746,39 +740,35 @@ template {
   margin-top: 53px;
 }
 
-.cost .center {
-  text-align: center;
-  margin: 0;
-}
-
-.cost .questions__item {
-  list-style: none;
-  padding: 0;
-}
-
-.cost__text {
-  font-size: 18px;
+.cost .question__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 
-.cost__text:before {
-  content: counter(sectionStyled) ".";
-  padding: 7px 11px;
+.cost-question__text {
+  font-size: 18px;
+  max-width: 379px;
+}
+
+.cost-question__img {
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   border: 2px solid;
-  counter-increment: sectionStyled;
-  margin-right: 32px;
   font-size: 14px;
-  font-weight: 700;
+  text-align: center;
+  margin-right: 32px;
+  padding: 9px;
 }
 
 .cost .carry {
   margin: 0 70px;
-}
-
-.cost-right {
-  margin-left: 135px;
 }
 
 .cost__form {
@@ -791,7 +781,7 @@ template {
           flex-direction: column;
 }
 
-.cost__form__title {
+.cost-form__title {
   text-align: center;
 }
 
@@ -807,9 +797,13 @@ template {
 }
 
 .cost__button {
-  max-width: 368px;
+  width: 368px;
   height: 70px;
   margin: 15px 0 33px 0;
+}
+
+.cost__downtext {
+  text-align: center;
 }
 
 .modal {
@@ -1039,39 +1033,12 @@ img {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
   }
-  .cost {
-    text-align: center;
-  }
-  .cost__h2 {
-    margin: 0 150px 52px 180px;
-  }
-  .cost-subtitle {
-    margin: 0 240px 70px 280px;
-  }
 }
 
 @media (max-width: 1404px) {
   .main-image {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
-  }
-  .cost {
-    text-align: center;
-  }
-  .cost__h2 {
-    margin: 0 150px 52px 180px;
-  }
-  .cost-subtitle {
-    margin: 0 240px 70px 280px;
-  }
-  .cost-questions {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-left: 237px;
   }
 }
 
@@ -1105,6 +1072,27 @@ img {
   }
   .slider__item img {
     max-width: 95%;
+  }
+  .cost {
+    background: url("../img/cost/Composed-layer@1X.png") no-repeat top left;
+  }
+  .cost__h2 {
+    text-align: center;
+  }
+  .cost__p {
+    text-align: center;
+  }
+  .cost-common {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -1188,6 +1176,16 @@ img {
   }
   .modal-text__contacts {
     margin-bottom: 30px;
+  }
+  .cost__h2 {
+    margin-top: 80px;
+    font-size: 18px;
+  }
+  .cost__p {
+    margin: 30px;
+  }
+  .cost .center-li {
+    text-align: center;
   }
 }
 
@@ -1319,6 +1317,23 @@ img {
   }
   .section-title {
     font-size: 20px;
+  }
+  .cost__h2 {
+    margin-top: 75px;
+    font-size: 16px;
+  }
+  .cost__text {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .cost__text:before {
+    margin-left: 20px;
+  }
+  .cost__p {
+    margin: 30px;
+  }
+  .cost .center-li {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */

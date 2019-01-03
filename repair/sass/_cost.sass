@@ -1,54 +1,49 @@
 .cost
-  background: #FFC000 url('../img/portfolio/Слой 1.jpeg')no-repeat center right
+  background: url('../img/cost/Composed-layer@1X.png')no-repeat center 
   &-common
     display: flex
     justify-content: space-between
-    color: black
-  &-left 
-    border: 1px solid red
-  &-right 
-    border: 1px solid blue    
+    color: black  
   &__h2
     margin-top: 105px
     font-size: 22px
     line-height: 35px
+  .center
+    margin: 0  
   &-title 
     max-width: 515px
-    margin-right: 150px
   &-subtitle
     margin-bottom: 100px 
   &__p
     font-size: 16px
-    margin-top: 53px 
-  .center
-    text-align: center
-    margin: 0 
-  &-questions
-  .questions__item
-      list-style: none 
-      padding: 0
-  &__text
-    font-size: 18px
+    margin-top: 53px
+  .question__item
+    display: flex
+    align-items: center
     font-weight: 700
-    margin-bottom: 40px
-    &:before
-      content: counter(sectionStyled) '.'
-      padding: 7px 11px
+    margin-bottom: 35px
+  &-question__text
+    font-size: 18px
+    max-width: 379px
+  &-question__img
+      width: 35px
+      height: 35px
       border-radius: 50%
-      border: 2px solid 
-      counter-increment: sectionStyled
-      margin-right: 32px    
+      border: 2px solid
       font-size: 14px
-      font-weight: 700 
+      text-align: center
+      margin-right: 32px
+      padding: 9px
+    
   .carry
     margin: 0 70px             
 
   &-right 
-    margin-left: 135px
+   
   &__form
     display: flex
     flex-direction: column
-    &__title
+  &-form__title
       text-align: center   
   &-form__subtitle
     margin-bottom: 48px 
@@ -58,9 +53,11 @@
     height: 65px
     margin-bottom: 15px
   &__button
-    max-width: 368px
+    width: 368px
     height: 70px
-    margin: 15px 0 33px 0           
+    margin: 15px 0 33px 0  
+  &__downtext
+    text-align: center           
     
    
    
