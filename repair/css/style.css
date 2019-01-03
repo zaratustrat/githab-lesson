@@ -1181,12 +1181,6 @@ img {
     margin-top: 80px;
     font-size: 18px;
   }
-  .cost__p {
-    margin: 30px;
-  }
-  .cost .center-li {
-    text-align: center;
-  }
 }
 
 @media (max-width: 688px) {
@@ -1318,6 +1312,9 @@ img {
   .section-title {
     font-size: 20px;
   }
+  .cost {
+    padding: 10px;
+  }
   .cost__h2 {
     margin-top: 75px;
     font-size: 16px;
@@ -1332,8 +1329,17 @@ img {
   .cost__p {
     margin: 30px;
   }
-  .cost .center-li {
+  .cost__form {
+    margin: 0 20px;
+  }
+  .cost__button {
+    width: 85%;
+    margin: 10px 25px;
+  }
+  .cost__downtext {
+    margin: 20px auto;
     text-align: center;
+    max-width: 150px;
   }
 }
 /*# sourceMappingURL=style.css.map */
