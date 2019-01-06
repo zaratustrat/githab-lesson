@@ -704,7 +704,7 @@ template {
 }
 
 .cost {
-  background: url("../img/cost/Composed-layer@1X.png") no-repeat center;
+  background: url("../img/cost/Composed-layer@1X.png") no-repeat top;
 }
 
 .cost-common {
@@ -1074,7 +1074,9 @@ img {
     max-width: 95%;
   }
   .cost {
-    background: url("../img/cost/Composed-layer@1X.png") no-repeat top left;
+    background-image: none;
+    background-color: #FFC000;
+    max-height: 666px;
   }
   .cost__h2 {
     text-align: center;
@@ -1138,7 +1140,7 @@ img {
     margin-bottom: 50px;
   }
   .modal-window__left {
-    display: none;
+    display: non;
   }
 }
 
@@ -1177,6 +1179,9 @@ img {
   .modal-text__contacts {
     margin-bottom: 30px;
   }
+  .cost {
+    max-height: 622px;
+  }
   .cost__h2 {
     margin-top: 80px;
     font-size: 18px;
@@ -1205,11 +1210,14 @@ img {
   .modal-window__right {
     width: auto;
   }
+  .cost {
+    max-height: 618px;
+  }
 }
 
 @media (max-width: 576px) {
   .container {
-    width: 319px;
+    width: 95%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1313,7 +1321,8 @@ img {
     font-size: 20px;
   }
   .cost {
-    padding: 10px;
+    height: 600px;
+    padding-top: 20px;
   }
   .cost__h2 {
     margin-top: 75px;
