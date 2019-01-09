@@ -1140,7 +1140,7 @@ img {
     margin-bottom: 50px;
   }
   .modal-window__left {
-    display: non;
+    display: none;
   }
 }
 
