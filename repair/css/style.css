@@ -806,6 +806,106 @@ template {
   text-align: center;
 }
 
+.price {
+  padding-top: 100px;
+}
+
+.price .section-title {
+  font-size: 30px;
+  max-width: 524px;
+  margin: auto;
+  color: black;
+  margin-bottom: 52px;
+}
+
+.price .section-subtitle {
+  margin-bottom: 60px;
+}
+
+.price-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  max-width: 370px;
+  min-height: 410px;
+  text-align: center;
+  padding-bottom: 47px;
+  border: 1px solid #e8e8e8;
+  margin: 10px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover > .card__img-wrap:after {
+  opacity: 1;
+}
+
+.card__img-wrap {
+  position: relative;
+  margin-bottom: 39px;
+}
+
+.card__img-wrap:after {
+  content: '';
+  height: 99%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  opacity: 0;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ffd200), to(rgba(225, 225, 225, 0)));
+  background-image: linear-gradient(to top, #ffd200 0%, rgba(225, 225, 225, 0) 100%);
+}
+
+.card__title {
+  margin-bottom: 31px;
+  font-size: 18px;
+}
+
+.card__link {
+  font-size: 16px;
+  font-family: 'Museo Sans Bold',sans-serif;
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  position: relative;
+}
+
+.card__link:after {
+  content: '';
+  width: 100%;
+  height: 3px;
+  background-color: #ffd200;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.card__link:hover:after {
+  height: 13px;
+  z-index: -1;
+}
+
 .modal {
   position: fixed;
   width: 100%;
@@ -999,7 +1099,7 @@ template {
   display: none;
 }
 
-*, *::after, *:before {
+*, *:after, *:before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -1025,6 +1125,11 @@ img {
 }
 
 .section-title_center {
+  text-align: center;
+}
+
+.section-subtitle {
+  font-size: 20px;
   text-align: center;
 }
 
