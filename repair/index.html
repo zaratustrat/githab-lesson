@@ -206,7 +206,7 @@
            <h4 class="card__title">Отделка офисных помещений</h4>
            <a href="#" class="card__link">Узнать цены</a>
          </div>
-         <div class="card wow fadeInUp" data-wow-delay="0.8s">
+         <div class="card wow fadeInUp" data-wow-delay="0.2s">
           <div class="card__img-wrap">
             <img src="img/price/price-4.png" alt="" class="card__img">
           </div>
@@ -214,7 +214,7 @@
            <h4 class="card__title">Ремонт в новостройках</h4>
            <a href="#" class="card__link">Узнать цены</a>
          </div>
-         <div class="card wow fadeInUp" data-wow-delay="1s">
+         <div class="card wow fadeInUp" data-wow-delay="0.4s">
           <div class="card__img-wrap">
             <img src="img/price/price-5.png" alt="" class="card__img">
           </div>
@@ -222,7 +222,7 @@
            <h4 class="card__title">Ремонт кухонь</h4>
            <a href="#" class="card__link">Узнать цены</a>
          </div>
-         <div class="card wow fadeInUp" data-wow-delay="1.2s">
+         <div class="card wow fadeInUp" data-wow-delay="0.6s">
             <div class="card__img-wrap">
               <img src="img/price/price-6.png" alt="" class="card__img">
             </div>
@@ -238,13 +238,64 @@
   </section>
   <!-- /.price -->
 
+  <section class="forze">
+    <div class="container">
+         <h2 class="section-title_center section-title">Наши специалисты готовы выехать на замер
+        в любое удобное для Вас время</h2>
+        <h3 class="section-subtitle">5 шагов до ремонта</h3>
+         
+          <div class="advantages">
+        <div class="forze-steps wow bounceInLeft" data-wow-delay="0.3s">
+          <div class="forze-wrap__img">
+            <img src="img/froze/operator.png" alt="">
+          </div>
+          <div class="forze__text">Вы звоните нам
+          или оставляете заявку</div>
+        </div>
+        <div class="forze-steps forze__arrow  wow bounceInDown" data-wow-delay="0.6s">
+          <div class="forze-wrap__img">
+            <img src="img/froze/clock.png" alt="">
+          </div>
+          <div class="forze__text">Согласуем удобное
+          для Вас время выезда специалиста на замер</div>
+        </div>
+        <div class="forze-steps forze__arrow wow zoomIn" data-wow-delay="0.9s">
+          <div class="forze-wrap__img">
+            <img src="img/froze/kach.png" alt="">
+          </div>
+          <div class="forze__text">Рассчитываем смету
+          согласовываем
+          с Вами</div>
+        </div>
+        <div class="forze-steps forze__arrow wow bounceInUp" data-wow-delay="0.6s">
+          <div class="forze-wrap__img">
+            <img src="img/froze/document.png" alt="">
+          </div>
+          <div class="forze__text">Подписываем договор
+          закупаем материал
+          по оптовым ценам</div>
+        </div>
+        <div class="forze-steps forze__arrow wow bounceInRight" data-wow-delay="0.3s">
+          <div class="forze-wrap__img">
+            <img src="img/froze/calendar.png" alt="">
+          </div>  
+          <div class="forze__text">Выполняем ремонт в указанные сроки</div>
+        </div>
+      </div>
+    </div>
+    <div class="forze-footer">
+      <div class="forze-footer__text">Ремонт обойдется Вам дешевле, так как <br> мы используем качественные материалы по
+        оптовым ценам</div>
+    </div>
+  </section>
+
   <div class="modal" id="modal-callback">
     <div class="modal__dialog">
       <div class="modal-window__left">
         <div class="modal-price__one modal-catalog">
           <img class=price-img src="img/model/bathroom.png" alt="bathroom">
-          <div class="price">
-            <h4 class="subtitle">Ванная комната</h4>
+          <div class="price-text">
+            <h4 class="subtitle subtitle-one">Ванная комната</h4>
             <p>135*150-<strong>31 000 pуб.</strong></p>
             <p>170*170-<strong>43 000 pуб</strong></p>
           </div>
@@ -259,7 +310,7 @@
         <div class="modal-price__three modal-catalog">
           <img class=price-img src="img/model/bathroom-restroom.png" alt="bathroom-restroom">
           <div class="price-text">
-            <h4 class="subtitle" >Совмещённый санузел</h4>
+            <h4 class="subtitle">Совмещённый санузел</h4>
             <p>170*210-<strong>54 000 pуб.</strong></p>
           </div>
         </div>
@@ -292,10 +343,9 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
    <script src="js/slick.min.js"></script>
    <script src="js/wow.min.js"></script>
-  <script>
-     $(document).ready(function () {
-      $('new WOW'().init();
-  
+<script>
+        new WOW().init();
+
     $(document).ready(function () {
       $('#button-callback').on('click', function() {
         $('#modal-callback').toggleClass('modal_visible');

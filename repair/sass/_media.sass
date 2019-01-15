@@ -42,6 +42,11 @@
       display: flex
       flex-direction: column
       align-items: center
+      margin-bottom: 515px
+  .forze
+    &__arrow
+      &:before
+        left: -58px    
 @media (max-width: 922px) 
   .container
     width: 768px
@@ -74,6 +79,23 @@
   .modal
     &-window__left
       display: none
+  .forze
+    .section-title
+      font-size: 25px
+      margin-bottom: 20px
+    .section-subtitle
+        margin-bottom: 35px
+    .advantages
+      flex-direction: column
+      align-items: center
+    .forze-steps
+      margin-bottom: 20px
+    &__arrow  
+          &:before
+            display: none
+    .forze__text
+        font-size: 18px        
+
 @media (max-width: 768px)
   .hidden-xs
     display: none
@@ -102,10 +124,12 @@
     &-text__contacts
       margin-bottom: 30px
   .cost
+    margin-bottom: 415px
     max-height: 622px
     &__h2
       margin-top: 80px
       font-size: 18px
+  
 @media(max-width: 688px)
   .container
     width: 575px      
@@ -121,7 +145,15 @@
     &-window__right
       width: auto 
   .cost
-    max-height: 618px             
+    max-height: 618px
+  .price
+    .section-title
+      font-size: 25px
+      line-height: 25px
+      margin: 50px 0 30px 0
+    .section-subtitle
+      font-size: 20px
+      margin-bottom: 25px                
 @media (max-width: 576px)
   .container
     width: 95%
@@ -209,9 +241,24 @@
       margin: 20px auto
       text-align: center
       max-width: 150px
-       
-
-      
+  .price
+    .section-title
+      font-size: 25px
+      line-height: 25px
+      margin: 75px 0 30px 0
+    .section-subtitle
+      font-size: 20px
+      margin-bottom: 25px        
+    .card
+      min-height: 300px
+      &__title
+        margin: 15px 0 10px 0  
+  .forze
+    .section-title
+      font-size: 20px
+    &-footer__text  
+      font-size: 20px
+      line-height: 25px
           
             
 
