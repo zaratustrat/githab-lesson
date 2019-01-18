@@ -1339,13 +1339,17 @@ img {
     left: -58px;
   }
   .footer {
+    padding-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   .footer .maps {
-    margin-top: 115px;
+    margin-top: 40px;
   }
   .footer .contacts {
     margin: auto;
@@ -1619,6 +1623,9 @@ img {
     height: 600px;
     padding-top: 20px;
   }
+  .cost-left {
+    margin-top: -50px;
+  }
   .cost__h2 {
     margin-top: 75px;
     font-size: 16px;
@@ -1645,10 +1652,13 @@ img {
     text-align: center;
     max-width: 150px;
   }
+  .price {
+    padding-top: 0;
+  }
   .price .section-title {
     font-size: 25px;
     line-height: 25px;
-    margin: 75px 0 30px 0;
+    margin: 30px 0 30px 0;
   }
   .price .section-subtitle {
     font-size: 20px;
@@ -1660,22 +1670,34 @@ img {
   .price .card__title {
     margin: 15px 0 10px 0;
   }
+  .forze {
+    padding-top: 30px;
+  }
   .forze .section-title {
     font-size: 20px;
+  }
+  .forze-footer {
+    padding: 30px 0 30px 0;
+    min-height: 0;
   }
   .forze-footer__text {
     font-size: 20px;
     line-height: 25px;
   }
   .footer {
-    padding-top: 50px;
+    padding-top: 130px;
   }
   .footer .maps {
     padding: 10px;
     min-height: 540px;
   }
+  .footer .contacts {
+    margin: -25px auto;
+  }
   .footer .contacts__title {
     font-size: 20px;
+    padding-top: 25px;
+    line-height: 30px;
   }
   .footer .contacts-text__icons {
     margin-bottom: 15px;
