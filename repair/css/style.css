@@ -1034,6 +1034,46 @@ template {
   font-weight: 300;
 }
 
+.benefit-carsd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 0;
+}
+
+.benefit-text__img {
+  max-width: 370px;
+  height: 410px;
+  border: 1px solid red;
+  margin: 0 30px;
+}
+
+.benefit__img {
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.benefit__img-1 {
+  background: url("../img/benefit/man 1.png");
+}
+
+.benefit__img-2 {
+  background-image: url("../img/benefit/man-2.png");
+}
+
+.benefit__img-3 {
+  background-image: url("../img/benefit/man-3.png");
+}
+
+.benefit__text {
+  max-width: 282px;
+  font-size: 16px;
+  color: black;
+  line-height: 23px;
+  margin: 27px auto;
+}
+
 .modal {
   position: fixed;
   width: 100%;
