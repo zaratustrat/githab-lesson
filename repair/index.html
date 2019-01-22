@@ -393,8 +393,8 @@
         </div>
       </div>
     </div>
-  </div>
-
+    </section>
+  
   <div class="modal" id="modal-callback">
     <div class="modal__dialog">
       <div class="modal-window__left">
@@ -439,6 +439,7 @@
             <input type="tel" class="modal-form__input modal__buttons" placeholder="Ваше телефон">
           </div>
           <button type="submit" class="modal-form__button modal__buttons">Узнать стоимость</button>
+          </form>
           <p class="connection">Или Вы можете перезвонить нам сами по телефону</p>
            <a class="form-text__phone form__phone" href="tel:+781824225131">+7 (8182) 42-51-31</a>  
       </div>
@@ -510,7 +511,7 @@
     <script>
       document.querySelector('#button-callback').eddEventListener('click', function () {
         ym(51963170, 'reachGoal','btn'); return true;
-      })
+      });
     </script>  
   </body>
 </html>
