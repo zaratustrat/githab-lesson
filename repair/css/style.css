@@ -1034,36 +1034,19 @@ template {
   font-weight: 300;
 }
 
-.benefit-carsd {
+.benefit-cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 100px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .benefit-text__img {
-  max-width: 370px;
-  height: 410px;
-  border: 1px solid red;
   margin: 0 30px;
-}
-
-.benefit__img {
-  background-size: 16px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.benefit__img-1 {
-  background: url("../img/benefit/man 1.png");
-}
-
-.benefit__img-2 {
-  background-image: url("../img/benefit/man-2.png");
-}
-
-.benefit__img-3 {
-  background-image: url("../img/benefit/man-3.png");
+  position: relative;
 }
 
 .benefit__text {
@@ -1071,7 +1054,55 @@ template {
   font-size: 16px;
   color: black;
   line-height: 23px;
-  margin: 27px auto;
+  position: absolute;
+  top: 27px;
+  left: 26px;
+}
+
+.benefit__img {
+  min-width: 370px;
+  height: 410px;
+}
+
+.warranty {
+  color: black;
+  padding: 23px 0 230px 0;
+}
+
+.warranty .description warranty {
+  margin: auto;
+}
+
+.warranty-subtitle {
+  line-height: 45px;
+  font-size: 35px;
+  max-width: 735px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.warranty .warranty__common {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.warranty-img__text {
+  max-width: 270px;
+  height: 360px;
+}
+
+.warranty__text {
+  min-width: 289px;
+  margin-top: 41px;
+  font-size: 18px;
 }
 
 .modal {
@@ -1400,6 +1431,18 @@ img {
   .footer .oll {
     margin-left: 70px;
   }
+  .benefit-cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .benefit__img {
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 922px) {
@@ -1471,6 +1514,32 @@ img {
   .forze .forze__text {
     font-size: 18px;
   }
+  .forze-footer {
+    padding: 30px;
+    min-height: auto;
+  }
+  .forze-footer__text {
+    font-size: 25px;
+  }
+  .benefit-cards {
+    padding: 50px 0 10px 0;
+  }
+  .warranty {
+    padding-bottom: 100px;
+  }
+  .warranty-subtitle {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .warranty__common {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .warranty-img__text {
+    margin-bottom: 115px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1516,6 +1585,15 @@ img {
     margin-top: 80px;
     font-size: 18px;
   }
+  .warranty {
+    padding-bottom: 50px;
+  }
+  .warranty .description-warranty {
+    padding-bottom: 0;
+  }
+  .footer-contacts__title {
+    padding-top: 100px;
+  }
 }
 
 @media (max-width: 688px) {
@@ -1543,6 +1621,9 @@ img {
   .cost {
     max-height: 618px;
   }
+  .cost-common {
+    padding: 50px;
+  }
   .price .section-title {
     font-size: 25px;
     line-height: 25px;
@@ -1551,6 +1632,15 @@ img {
   .price .section-subtitle {
     font-size: 20px;
     margin-bottom: 25px;
+  }
+  .warranty {
+    padding-bottom: 30px;
+  }
+  .warranty-img {
+    margin-top: 15px;
+  }
+  .footer {
+    padding-top: 100px;
   }
 }
 
@@ -1661,13 +1751,13 @@ img {
   }
   .cost {
     height: 600px;
-    padding-top: 20px;
+    padding-top: 20px 0 20px 0;
   }
   .cost-left {
     margin-top: -50px;
   }
   .cost__h2 {
-    margin-top: 75px;
+    margin-top: 80px;
     font-size: 16px;
   }
   .cost__text {
@@ -1685,7 +1775,7 @@ img {
   }
   .cost__button {
     width: 85%;
-    margin: 10px 25px;
+    margin: 10px 20px;
   }
   .cost__downtext {
     margin: 20px auto;
@@ -1725,11 +1815,15 @@ img {
     line-height: 25px;
   }
   .footer {
-    padding-top: 130px;
+    padding-top: 100px;
   }
   .footer .maps {
     padding: 10px;
     min-height: 540px;
+  }
+  .footer-contacts__title {
+    padding-top: 60px;
+    margin-top: 135px;
   }
   .footer .contacts {
     margin: -25px auto;
@@ -1741,6 +1835,12 @@ img {
   }
   .footer .contacts-text__icons {
     margin-bottom: 15px;
+  }
+  .warranty {
+    padding-bottom: 30px;
+  }
+  .warranty-subtitle {
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
