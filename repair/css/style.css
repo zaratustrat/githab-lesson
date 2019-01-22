@@ -1579,20 +1579,20 @@ img {
   }
   .cost {
     margin-bottom: 415px;
-    max-height: 622px;
+    max-height: 575px;
   }
   .cost__h2 {
     margin-top: 80px;
-    font-size: 18px;
+    font-size: 20px;
+  }
+  .cost__p {
+    margin: 30px;
   }
   .warranty {
     padding-bottom: 50px;
   }
   .warranty .description-warranty {
     padding-bottom: 0;
-  }
-  .footer-contacts__title {
-    padding-top: 100px;
   }
 }
 
@@ -1638,9 +1638,6 @@ img {
   }
   .warranty-img {
     margin-top: 15px;
-  }
-  .footer {
-    padding-top: 100px;
   }
 }
 
@@ -1750,8 +1747,7 @@ img {
     font-size: 20px;
   }
   .cost {
-    height: 600px;
-    padding-top: 20px 0 20px 0;
+    min-height: 580px;
   }
   .cost-left {
     margin-top: -50px;
@@ -1768,7 +1764,7 @@ img {
     margin-left: 20px;
   }
   .cost__p {
-    margin: 30px;
+    margin: 25px;
   }
   .cost__form {
     margin: 0 20px;
