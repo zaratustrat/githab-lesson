@@ -1627,9 +1627,6 @@ img {
   .cost {
     max-height: 580px;
   }
-  .cost-common {
-    padding: 40px 0;
-  }
   .price .section-title {
     font-size: 25px;
     line-height: 25px;
@@ -1753,10 +1750,7 @@ img {
     font-size: 20px;
   }
   .cost {
-    max-height: 498px;
-  }
-  .cost-left {
-    margin-top: -50px;
+    max-height: 540px;
   }
   .cost__h2 {
     margin-top: 30px;
@@ -1772,6 +1766,9 @@ img {
   }
   .cost__p {
     margin: 25px;
+  }
+  .cost-right {
+    margin-top: 100px;
   }
   .cost__form {
     margin: 0 20px;
@@ -1828,9 +1825,8 @@ img {
   }
   .footer .contacts__title {
     font-size: 20px;
-    padding-top: 25px;
+    padding-top: 70px;
     line-height: 30px;
-    margin: auto;
   }
   .footer .contacts-text__icons {
     margin-bottom: 15px;
