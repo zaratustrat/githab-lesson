@@ -1,28 +1,16 @@
-@media (max-width: 1875px)
-  .footer
-    .maps
-      flex-basis: 55%
+
 @media (max-width: 1529px)
   .main
     &-image 
-      transform: scale(1.2)
-  .footer
-    .maps
-      flex-basis: 55.3%     
+      transform: scale(1.2)    
 @media (max-width: 1404px) 
   .main
     &-image 
-      transform: scale(1.1)
-  .footer
-    .maps
-      flex-basis: 55.8%             
+      transform: scale(1.1)          
 @media (max-width: 1292px)
   .main
     &-image
-      transform: scale(1)
-  .footer
-    .maps
-      flex-basis: 56.2%                         
+      transform: scale(1)                        
 @media (max-width: 1199px)
   .container
     width: 922px
@@ -61,11 +49,7 @@
       &:before
         left: -58px
   .footer
-    padding-top: 50px
-    display: flex
-    flex-direction: column-reverse 
-    .maps
-      margin-top: 40px
+    padding-top: 100px
     .contacts
       margin: auto
       &__title 
@@ -143,8 +127,6 @@
       flex-direction: column
     &-img__text
       margin-bottom: 115px    
-
-
 @media (max-width: 768px)
   .hidden-xs
     display: none
@@ -184,9 +166,14 @@
     padding-bottom: 50px    
     .description-warranty
       padding-bottom: 0    
-  // .footer
-  //   &-contacts__title
-  //     padding-top: 100px
+  .footer
+    padding-top: 20px
+    display: flex
+    flex-direction: column-reverse 
+    .maps
+      margin: auto
+      width: 95%
+      height: 100px
 @media(max-width: 688px)
   .container
     width: 575px      
@@ -202,9 +189,9 @@
     &-window__right
       width: auto 
   .cost
-    max-height: 618px
+    max-height: 580px
     &-common
-      padding: 50px
+      padding: 40px 0
   .price
     .section-title
       font-size: 25px
@@ -218,7 +205,7 @@
     &-img 
       margin-top: 15px 
   .footer
-    // padding-top: 100px    
+       
 @media (max-width: 576px)
   .container
     width: 95%
@@ -285,8 +272,8 @@
   .section-title
     font-size: 20px 
   .cost 
-    min-height: 580px
-    // padding-top: 20px 0 20px 0
+    max-height: 498px
+   
     &-left
       margin-top: -50px  
     &__h2
@@ -336,10 +323,8 @@
         width: 275px 
         height: 330px     
   .footer
-    padding-top: 100px
     .maps
-      padding: 10px
-      min-height: 540px
+      margin-top: 50px
     &-contacts__title
       // padding-top: 60px
       // margin-top: 135px 

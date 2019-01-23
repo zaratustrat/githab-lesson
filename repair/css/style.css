@@ -996,8 +996,8 @@ template {
 }
 
 .footer .maps {
-  -ms-flex-preferred-size: 54.3%;
-      flex-basis: 54.3%;
+  max-width: 1033px;
+  width: 55%;
   min-height: 640px;
 }
 
@@ -1338,21 +1338,10 @@ img {
   text-align: center;
 }
 
-@media (max-width: 1875px) {
-  .footer .maps {
-    -ms-flex-preferred-size: 55%;
-        flex-basis: 55%;
-  }
-}
-
 @media (max-width: 1529px) {
   .main-image {
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
-  }
-  .footer .maps {
-    -ms-flex-preferred-size: 55.3%;
-        flex-basis: 55.3%;
   }
 }
 
@@ -1361,20 +1350,12 @@ img {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
   }
-  .footer .maps {
-    -ms-flex-preferred-size: 55.8%;
-        flex-basis: 55.8%;
-  }
 }
 
 @media (max-width: 1292px) {
   .main-image {
     -webkit-transform: scale(1);
             transform: scale(1);
-  }
-  .footer .maps {
-    -ms-flex-preferred-size: 56.2%;
-        flex-basis: 56.2%;
   }
 }
 
@@ -1430,17 +1411,7 @@ img {
     left: -58px;
   }
   .footer {
-    padding-top: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
-  .footer .maps {
-    margin-top: 40px;
+    padding-top: 100px;
   }
   .footer .contacts {
     margin: auto;
@@ -1614,6 +1585,21 @@ img {
   .warranty .description-warranty {
     padding-bottom: 0;
   }
+  .footer {
+    padding-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .footer .maps {
+    margin: auto;
+    width: 95%;
+    height: 100px;
+  }
 }
 
 @media (max-width: 688px) {
@@ -1639,10 +1625,10 @@ img {
     width: auto;
   }
   .cost {
-    max-height: 618px;
+    max-height: 580px;
   }
   .cost-common {
-    padding: 50px;
+    padding: 40px 0;
   }
   .price .section-title {
     font-size: 25px;
@@ -1767,7 +1753,7 @@ img {
     font-size: 20px;
   }
   .cost {
-    min-height: 580px;
+    max-height: 498px;
   }
   .cost-left {
     margin-top: -50px;
@@ -1834,12 +1820,8 @@ img {
     width: 275px;
     height: 330px;
   }
-  .footer {
-    padding-top: 100px;
-  }
   .footer .maps {
-    padding: 10px;
-    min-height: 540px;
+    margin-top: 50px;
   }
   .footer .contacts {
     margin: -25px auto;
