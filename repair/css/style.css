@@ -1047,6 +1047,12 @@ template {
 .benefit-text__img {
   margin: 0 30px;
   position: relative;
+  width: 370px;
+  height: 410px;
+}
+
+.benefit__img {
+  max-width: 100%;
 }
 
 .benefit__text {
@@ -1057,11 +1063,6 @@ template {
   position: absolute;
   top: 27px;
   left: 26px;
-}
-
-.benefit__img {
-  min-width: 370px;
-  height: 410px;
 }
 
 .warranty {
@@ -1335,6 +1336,13 @@ img {
 .section-subtitle {
   font-size: 20px;
   text-align: center;
+}
+
+@media (max-width: 1875px) {
+  .footer .maps {
+    -ms-flex-preferred-size: 55%;
+        flex-basis: 55%;
+  }
 }
 
 @media (max-width: 1529px) {
@@ -1765,8 +1773,9 @@ img {
     margin-top: -50px;
   }
   .cost__h2 {
-    margin-top: 80px;
-    font-size: 16px;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 25px;
   }
   .cost__text {
     font-size: 15px;
@@ -1815,11 +1824,15 @@ img {
     font-size: 20px;
   }
   .forze-footer {
-    width: 110%;
+    width: 100%;
   }
   .forze-footer__text {
     font-size: 20px;
     line-height: 25px;
+  }
+  .benefit-text__img {
+    width: 275px;
+    height: 330px;
   }
   .footer {
     padding-top: 100px;
@@ -1827,10 +1840,6 @@ img {
   .footer .maps {
     padding: 10px;
     min-height: 540px;
-  }
-  .footer-contacts__title {
-    padding-top: 60px;
-    margin-top: 135px;
   }
   .footer .contacts {
     margin: -25px auto;
