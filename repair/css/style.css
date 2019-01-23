@@ -1848,6 +1848,7 @@ img {
     font-size: 20px;
     padding-top: 25px;
     line-height: 30px;
+    margin: auto;
   }
   .footer .contacts-text__icons {
     margin-bottom: 15px;
