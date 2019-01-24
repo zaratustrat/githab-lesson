@@ -1,18 +1,20 @@
 .portfolio
   background-color: $light-bg-color
-  padding: 100px 0 186px 0
+  padding: 80px 0 186px 0
   background-size: contain
   position: relative  
   z-index: 1
   &:before 
     content: ''
-    background: url('../img/portfolio/bacground.png') no-repeat top left 100%
+    background: url('../repair/img/portfolio/bacground.png') no-repeat top left 100%
     left: 0
     top: 0 
     width: 60%
     height: 100% 
     position: absolute
     z-index: -1
+.section-title
+  margin-bottom: 80px    
 
 .slider
   &__item   
@@ -31,14 +33,13 @@
   bottom: -68px
   &:hover
     cursor: pointer
-  &_right
     left: 50%
-    background: url('../img/portfolio/arrow-right.png') no-repeat center
+    background: url('../repair/img/portfolio/arrow-right.png') no-repeat center
     background-size: 100%
     transform: translateX(15px)
   &_left
     left: 50%
     transform: translateX(-45)
     margin-left: -60px
-    background: url('../img/portfolio/arrow-left.png') no-repeat center
+    background: url('../repair/img/portfolio/arrow-left.png') no-repeat center
     background-size: 100%            

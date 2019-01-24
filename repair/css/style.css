@@ -343,24 +343,24 @@ template {
 
 @font-face {
   font-family: 'Museo Sans Light';
-  src: url("../fonts/MuseoSansCiril/MuseoSansCyrl-300.eot");
-  src: url("../fonts/MuseoSansCiril/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCiril/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCiril/MuseoSansCyrl-300.ttf") format("truetype");
+  src: url("../repair/fonts/MuseoSansCiril/MuseoSansCyrl-300.eot");
+  src: url("../repair/fonts/MuseoSansCiril/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../repair/fonts/MuseoSansCiril/MuseoSansCyrl-300.woff") format("woff"), url("../repair/fonts/MuseoSansCiril/MuseoSansCyrl-300.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Museo Sans Medium';
-  src: url("../fonts/MuseoSansCiril/MuseoSansCyrl-500.eot");
-  src: url("../fonts/MuseoSansCiril/MuseoSansCyrl-500.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCiril/MuseoSansCyrl-500.woff") format("woff"), url("../fonts/MuseoSansCiril/MuseoSansCyrl-500.ttf") format("truetype");
+  src: url("../repair/fonts/MuseoSansCiril/MuseoSansCyrl-500.eot");
+  src: url("../repair/fonts/MuseoSansCiril/MuseoSansCyrl-500.eot?#iefix") format("embedded-opentype"), url("../repair/fonts/MuseoSansCiril/MuseoSansCyrl-500.woff") format("woff"), url("../repair/fonts/MuseoSansCiril/MuseoSansCyrl-500.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Museo Sans Bold';
-  src: url("../fonts/MuseoSansCirilMuseoSansCyrl-700.eot");
-  src: url("../fonts/MuseoSansCirilMuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCirilMuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCirilMuseoSansCyrl-700.ttf") format("truetype");
+  src: url("../repair/fonts/MuseoSansCirilMuseoSansCyrl-700.eot");
+  src: url("../repair/fonts/MuseoSansCirilMuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../repair/fonts/MuseoSansCirilMuseoSansCyrl-700.woff") format("woff"), url("../repair./fonts/MuseoSansCirilMuseoSansCyrl-700.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -504,6 +504,7 @@ template {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 30px;
+  line-height: 25px;
 }
 
 .main-advantages__img {
@@ -643,7 +644,7 @@ template {
 
 .portfolio {
   background-color: #f5f5f5;
-  padding: 100px 0 186px 0;
+  padding: 80px 0 186px 0;
   background-size: contain;
   position: relative;
   z-index: 1;
@@ -651,13 +652,17 @@ template {
 
 .portfolio:before {
   content: '';
-  background: url("../img/portfolio/bacground.png") no-repeat top left 100%;
+  background: url("../repair/img/portfolio/bacground.png") no-repeat top left 100%;
   left: 0;
   top: 0;
   width: 60%;
   height: 100%;
   position: absolute;
   z-index: -1;
+}
+
+.section-title {
+  margin-bottom: 80px;
 }
 
 .slider__item {
@@ -684,11 +689,8 @@ template {
 
 .arrow:hover {
   cursor: pointer;
-}
-
-.arrow_right {
   left: 50%;
-  background: url("../img/portfolio/arrow-right.png") no-repeat center;
+  background: url("../repair/img/portfolio/arrow-right.png") no-repeat center;
   background-size: 100%;
   -webkit-transform: translateX(15px);
           transform: translateX(15px);
@@ -699,7 +701,7 @@ template {
   -webkit-transform: translateX(-45);
           transform: translateX(-45);
   margin-left: -60px;
-  background: url("../img/portfolio/arrow-left.png") no-repeat center;
+  background: url("../repair/img/portfolio/arrow-left.png") no-repeat center;
   background-size: 100%;
 }
 
@@ -1009,7 +1011,7 @@ template {
 
 .footer .contacts__title {
   font-size: 22px;
-  line-height: 40px;
+  line-height: 34px;
 }
 
 .footer .contacts-text__icons {
@@ -1045,7 +1047,7 @@ template {
 }
 
 .benefit-text__img {
-  margin: 0 30px;
+  margin: 0 20px;
   position: relative;
   width: 370px;
   height: 410px;
