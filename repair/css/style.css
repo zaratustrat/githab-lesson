@@ -652,7 +652,7 @@ template {
 
 .portfolio:before {
   content: '';
-  background: url("../repair/img/portfolio/bacground.png") no-repeat top left 100%;
+  background: url("../img/portfolio/bacground.png") no-repeat top left 100%;
   left: 0;
   top: 0;
   width: 60%;
@@ -689,8 +689,11 @@ template {
 
 .arrow:hover {
   cursor: pointer;
+}
+
+.arrow_right {
   left: 50%;
-  background: url("../repair/img/portfolio/arrow-right.png") no-repeat center;
+  background: url("../img/portfolio/arrow-right.png") no-repeat center;
   background-size: 100%;
   -webkit-transform: translateX(15px);
           transform: translateX(15px);
@@ -701,7 +704,7 @@ template {
   -webkit-transform: translateX(-45);
           transform: translateX(-45);
   margin-left: -60px;
-  background: url("../repair/img/portfolio/arrow-left.png") no-repeat center;
+  background: url("../img/portfolio/arrow-left.png") no-repeat center;
   background-size: 100%;
 }
 
